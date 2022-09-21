@@ -1,0 +1,153 @@
+/* header */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#result{
+    display: flex;
+    align-items: center;
+}
+
+
+/* input tag  */
+
+.newInp{
+    border: none;
+    padding: 11px;
+    color: white;
+    background: none;
+    border-bottom: 2px solid purple;
+    font-size: 20px;
+    width: 50px;
+}
+
+.newInp:focus{
+    outline: none;
+    
+}
+
+.after{
+    color: white;
+    font-size: 20px;
+}
+
+.sameSame{
+    color: white;
+    font-size: 20px;
+}
+
+/* main */
+
+
+main span img{
+    position: absolute;
+}
+
+
+body{
+    background-image: url(./images/newest.jpg);
+    background-size: cover;
+}
+
+/* images */
+
+#first img{
+    height: 150px;
+    margin-left: 1vh;
+}
+
+#first img:hover{
+    height: 250px;
+    transition: 2s;
+    z-index: 1;
+}
+
+#second img{
+    height: 150px;
+    margin-top: 8vh;
+    margin-left: 10vw;
+}
+#second img:hover{
+    height: 250px;
+    transition: 2s;
+    z-index: 1;
+}
+
+
+#third img{
+    height: 150px;
+    margin-top: 15vh;
+    margin-left: 20vw;
+}
+#third img:hover{
+    height: 250px;
+    transition: 2s;
+    z-index: 1;
+}
+
+#four img{
+    height: 150px;
+    margin-top: 24vh;
+    margin-left: 30vw;
+}
+#four img:hover{
+    height: 250px;
+    transition: 2s;
+    z-index: 1;
+}
+
+
+#five img{
+    height: 150px;
+    margin-top: 34vh;
+    margin-left: 39vw;
+}
+
+#five img:hover{
+    height: 250px;
+    transition: 2s;
+    z-index: 1;
+}
+
+
+#six img{
+    height: 150px;
+    margin-top: 41vh;
+    margin-left: 44vw;
+}
+#six img:hover{
+    height: 250px;
+    transition: 2s;
+    z-index: 1;
+}
+
+
+
+#seven img{
+    height: 150px;
+    margin-top: 51vh;
+    margin-left: 58vw;
+}
+#seven img:hover{
+    height: 250px;
+    transition: 2s;
+    z-index: 1;
+}
+
+
+
+#eight img{
+    height: 150px;
+    margin-top: 62vh;
+    margin-left: 69vw;
+}
+
+#eight img:hover{
+    height: 200px;
+    transition: 2s;
+    z-index: 1;
+}
+
